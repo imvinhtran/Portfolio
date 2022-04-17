@@ -1,0 +1,64 @@
+#contact {
+    font-family: 'Poppins', sans-serif;
+}
+.contact__container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+
+.contact__items {
+    transform: translateX(20%);
+}
+
+.contact__item {
+    background-color: var(--color-bg-variant);
+    border-radius: 2rem;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact__item > h3 {
+    margin-top: 1rem;
+}
+
+.contact__item > h5 {
+    margin-bottom: 1rem;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact__content > input {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    height: 3rem;
+    border-radius: 8px;
+    color: var(--color--white);
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact__content > textarea {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    color: var(--color--white);
+    font-size: 1rem;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+}
+
+.contact__content > button {
+    font-family: 'Poppins', sans-serif;
+}

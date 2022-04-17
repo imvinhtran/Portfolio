@@ -1,0 +1,41 @@
+.nav__container {
+    position: fixed;
+    background-color: var(--color-primary-variant);
+    bottom: 1rem;
+    left: calc(50% - 10rem);
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    flex: 1;
+    border-radius: 4rem;
+    align-items: center;
+    z-index: 99;
+}
+
+.nav__icons {
+    display: flex;
+    font-size: 1.5rem;
+    flex: 1;
+    color: var(--color-white);
+}
+
+.nav__icon {
+    margin: auto;
+}
+
+.nav__icons:hover {
+    background-color: rgba(77, 181, 255, 0.6);
+    border-radius: 50%;
+    height: 4rem;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.nav__icons.active {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 5rem;
+    height: 4rem;
+    color: black;
+    font-size: 1.8rem;
+}

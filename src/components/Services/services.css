@@ -1,0 +1,35 @@
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    
+}
+
+.service__contents {
+    background-color: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    height: fit-content;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.service__contents > h4 {
+    background-color: var(--color-primary);
+    border-radius: 0 0 2rem 2rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.service__contents > ul {
+    padding: 2rem 3rem;
+}
+.service__contents > ul > li {
+    padding: 1rem 0;
+}
+.check__service__btn {
+    margin-right: 8px;
+}
+
+.service__contents:hover {
+    background-color: var(--color-primary-variant);
+}

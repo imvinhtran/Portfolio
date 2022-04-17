@@ -1,0 +1,36 @@
+#footer {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 30rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer > h2 {
+    margin-top: 3rem;
+}
+
+#footer > ul {
+    display: flex;
+
+}
+
+#footer > ul > li {
+    font-size: 1.4rem;
+    margin: 1rem 8px;
+}
+
+#footer > ul > li:hover > a {
+   color: #fff;
+}
+
+#footer > ul > li > a {
+    color: black;
+}
+
+.footer__icon {
+    font-size: 3rem;
+}
+

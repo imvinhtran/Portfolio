@@ -1,0 +1,29 @@
+
+.exp__my {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+
+.exp__frontend {
+    background-color: var(--color-bg-variant);
+    border-radius: 2rem;
+    padding: 4rem;
+}
+
+.exp__frontend > h3{
+    margin: 2rem 0;
+}
+
+.exp__frontend > div{
+    margin: 1rem 0;
+}
+
+.exp__frontend > div > h5{
+    color: var(--color-light);
+}
+.check__btn {
+    transition: var( --transition);
+    color: var(--color-primary);
+    margin-right: 2px;
+}

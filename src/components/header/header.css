@@ -1,0 +1,62 @@
+header {
+    height: 100vh;
+    padding: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ======== CTA ==========*/
+
+.cta {
+    margin-top: 2.5rem;
+}
+.cta > a:first-child {
+    margin-right: 1rem;
+}
+
+/* ========= HEADER SOCIAL ==========*/
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+/* ============ IMG ==========*/
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    overflow: hidden;
+}
+
+.scroll__down {
+    position: absolute;
+    right: 0;
+    bottom: 8rem;
+    transform: rotate(90deg);
+}
+
+

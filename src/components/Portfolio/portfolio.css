@@ -1,0 +1,24 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.portfolio__items {
+    background-color: var(--color-bg-variant);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.portfolio__items > img {
+    margin-bottom: 12px;
+    border-radius: 1rem;
+}
+.portfolio__items > h3 {
+    margin-bottom: 12px;
+    
+}
+
+.portfolio__items > div > a {
+    margin-right: 8px;
+}
