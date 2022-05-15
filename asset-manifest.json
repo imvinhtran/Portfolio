@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.6eec4c03.css",
-    "main.js": "./static/js/main.2e13b82c.js",
-    "static/media/TranVinhQuang-VN.pdf": "./static/media/TranVinhQuang-VN.fb022b8186eaf876c2b4.pdf",
-    "static/media/TranVinhQuang-EN.pdf": "./static/media/TranVinhQuang-EN.1533d733573354adef03.pdf",
+    "main.js": "./static/js/main.f1b88d05.js",
+    "static/media/TranVinhQuang-VN.pdf": "./static/media/TranVinhQuang-VN.10d9c7bb4af09929e9bf.pdf",
+    "static/media/TranVinhQuang-EN.pdf": "./static/media/TranVinhQuang-EN.b845fe46803fd104611d.pdf",
     "static/media/me.png": "./static/media/me.b7250cc63e591a566766.png",
     "static/media/portfolio3.jpg": "./static/media/portfolio3.e51503eb9d845dfbc661.jpg",
     "static/media/portfolio4.jpg": "./static/media/portfolio4.7a0b544813321c228343.jpg",
@@ -12,10 +12,10 @@
     "static/media/portfolio1.jpg": "./static/media/portfolio1.af3caaf62d156fbf1ed3.jpg",
     "index.html": "./index.html",
     "main.6eec4c03.css.map": "./static/css/main.6eec4c03.css.map",
-    "main.2e13b82c.js.map": "./static/js/main.2e13b82c.js.map"
+    "main.f1b88d05.js.map": "./static/js/main.f1b88d05.js.map"
   },
   "entrypoints": [
     "static/css/main.6eec4c03.css",
-    "static/js/main.2e13b82c.js"
+    "static/js/main.f1b88d05.js"
   ]
 }
