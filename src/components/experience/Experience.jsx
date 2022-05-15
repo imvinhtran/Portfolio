@@ -23,23 +23,35 @@ function Experience() {
           <h5>Experienced</h5>
         </div>
         <div>
-
           <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> ReactJS</h4>
           <h5>Experienced</h5>
         </div>
+        <div>
+          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> Bootstrap</h4>
+          <h5>Experienced</h5>
+        </div>
+        
         </div>
         <div className="exp__frontend">
-          <h3>Designer</h3>
+          <h3>Backend Development</h3>
           <div>
-          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> Photoshop</h4>
+          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> NodeJS</h4>
           <h5>Experienced</h5>
           </div>
           <div>
-          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> Illumitrator</h4>
+          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> ExpressJS</h4>
           <h5>Experienced</h5>
           </div>
           <div>
-          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> Figma</h4>
+          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> MongoDB</h4>
+          <h5>Experienced</h5>
+          </div>
+          <div>
+          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> Mongoose</h4>
+          <h5>Experienced</h5>
+          </div>
+          <div>
+          <h4><BsFillPatchCheckFill className='check__btn'></BsFillPatchCheckFill> Handle-Bar</h4>
           <h5>Experienced</h5>
           </div>
         </div>

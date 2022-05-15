@@ -44,7 +44,7 @@ const Testimonial = () => {
   return (
     <section id='container testimonial'>
     <h5>Review from clients</h5>
-    <h2>Testimonial</h2>
+    <h2>Review</h2>
     <Swiper
         spaceBetween={20}
         pagination={{

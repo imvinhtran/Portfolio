@@ -120,12 +120,110 @@ img {
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============*/
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
+    .container {
+       width: var(--container-width-md);
+    }
+} */
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
     .container {
         width: var(--container-width-md);
+     }
+
+    .portfolio__container {
+        display: block;
+        width: fit-content;
     }
+    .portfolio__items {
+        margin-bottom: 1rem;
+    }
+    .contact__content {
+        margin-left: 2rem;
+    }
+    .rewards {
+        gap: 0;
+    }
+}
+
+@media (max-width: 739px) {
+    
+    header {
+        padding: 4rem;
+    }
+    .container {
+        width: 100%;
+     }
+
+
+     .about__avarta {
+         display: none;
+     }
+     .about__contents {
+         display: block;
+     }
+
+     #services {
+         display: none;
+     }
+
+    .portfolio__container {
+        display: block;
+        width: fit-content;
+    }
+    .portfolio__items {
+        margin-bottom: 1rem;
+    }
+    .contact__content {
+        margin-left: 2rem;
+    }
+    .rewards {
+        display: block;
+    }
+    .reward {
+        margin: 1rem 1rem;
+    }
+    .exp__frontend {
+        padding: 1rem;
+    }
+    .contact__container {
+        display: block;
+    }
+    .contact__container > form {
+        padding-bottom: 2rem;
+    }
+    #footer {
+        height: auto;
+    }
+    #footer > ul {
+        display: none;
+    }
+    .mySwiper {
+        width: 80%;
+    }
+    section {
+        padding: 0 1rem;
+    }
+    .cta > a {
+        margin-bottom: 1rem;
+    }
+    
 }
 
 .fontsize__2rem {
     font-size: 2rem;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.img-480-360 {
+    max-width: 480px;
+    max-height: 360px;
+    height: 360px;
 }

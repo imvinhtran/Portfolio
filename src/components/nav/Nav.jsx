@@ -13,7 +13,7 @@ export const Nav = () => {
  
   return (
     <div className='nav__container'>
-    <a onClick={() => setActive('#')} href="#home" className={`nav__icons ${active === '#' ? 'active' : ''}`}>
+    <a onClick={() => setActive('#')} href="#" className={`nav__icons ${active === '#' ? 'active' : ''}`}>
     <BiHome className='nav__icon'></BiHome>
     </a>
     <a onClick={() => setActive('#about')} href="#about" className={`nav__icons ${active === '#about' ? 'active' : ''}`}>

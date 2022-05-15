@@ -23,19 +23,19 @@ const Contact = () => {
             <AiOutlineMail className='fontsize__2rem '></AiOutlineMail>
             <h3>Email</h3>
             <h5>vquanng5.9@gmail.com</h5>
-            <a href="">Send a message</a>
+            <a href="mailto:vquanng5.9@gmail.com">Send a message</a>
           </div>
           <div className="contact__item">
             <RiMessengerLine className='fontsize__2rem '></RiMessengerLine>
             <h3>Messenger</h3>
             <h5>Vinh Tran</h5>
-            <a href="">Send a message</a>
+            <a href="https://www.facebook.com/vquang1.9/">Send a message</a>
           </div>
           <div className="contact__item">
             <RiWhatsappLine className='fontsize__2rem '></RiWhatsappLine>
             <h3>WhatsApps</h3>
             <h5>+84 353 322 821</h5>
-            <a href="">Send a message</a>
+            <a href="tel:+84353322821">Call Me</a>
           </div>
         </div>
         <form ref={form} onSubmit={sendEmail} className="contact__content">

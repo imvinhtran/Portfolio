@@ -15,7 +15,7 @@ header {
 .cta {
     margin-top: 2.5rem;
 }
-.cta > a:first-child {
+.cta > a:not(:last-child) {
     margin-right: 1rem;
 }
 
@@ -58,5 +58,3 @@ header {
     bottom: 8rem;
     transform: rotate(90deg);
 }
-
-

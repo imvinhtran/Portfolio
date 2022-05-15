@@ -19,18 +19,18 @@ const About = () => {
               <article className="reward">
                     <IoIosRibbon className='reward__icons'></IoIosRibbon>
                     <h5>Experience</h5>
-                    <small>3+ Years Working</small>
+                    <small>1+ Years Working</small>
               </article>
               <article className="reward">
                     <IoPeopleOutline className='reward__icons'></IoPeopleOutline>
                     <h5>Clients</h5>
-                    <small>200+ Worldwide</small>
+                    <small></small>
                     
               </article>
               <article className="reward">
                     <AiFillProject className='reward__icons'></AiFillProject>
                     <h5>Projects</h5>
-                    <small>80+ Completed</small>
+                    <small></small>
               </article>
             </div>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -40,7 +40,7 @@ const About = () => {
              remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
              sheets containing Lorem Ipsum passages, and more recently with desktop publishing
               software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              <a href="" className='btn btn-primary'>Let's Talk</a>
+              <a href="https://www.linkedin.com/in/vinh-quang/" className='btn btn-primary'>Let's Talk</a>
         </div>
         
       </div>
